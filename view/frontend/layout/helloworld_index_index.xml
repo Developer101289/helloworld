@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title>
+            V4U-How to Create Controller in Magento 2?
+        </title>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="V4U\Helloworld\Block\Helloworld" name="helloworld" template="V4U_Helloworld::helloworld.phtml" />        
+        </referenceContainer>
+    </body>
+</page>
